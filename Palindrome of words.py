@@ -32,9 +32,6 @@ def middle(word):
     return word[1:-1]
 
 
-word = input('Enter the word to check:')
-
-
 def is_palindrome(word):
     if first(word) == last(word):
         if len(word) <= 2:
@@ -45,6 +42,8 @@ def is_palindrome(word):
     else:
         print('False')
 
+word = input('Enter the word to check:')
+       
 is_palindrome(word)
 
 
