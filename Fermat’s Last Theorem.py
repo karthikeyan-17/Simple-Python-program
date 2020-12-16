@@ -16,11 +16,11 @@ def check_fermat(a, b, c, n):
     else:
         print("No, that doesn’t work.")
 
-def check_numbers():
+def get_numbers():
     a = int(input("Value of a: "))
     b = int(input("Value of b: "))
     c = int(input("Value of c: "))
     n = int(input("Value of n: "))
-    return check_fermat(a, b, c, n)
+    check_fermat(a, b, c, n)
 
-check_numbers()
+get_numbers()
